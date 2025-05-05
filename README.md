@@ -5,7 +5,8 @@ it is web application used to upload error log files and get analysis by Mistral
 how to run:
 1. create a virtual environment
 >python -m venv venv
->>venv/Scripts/activate
+
+>venv/Scripts/activate
 2. install necessary packages
 >pip install flask requests
 3. in the app.py keep your Mistral AI API, no need of changing the Mistral Url.
