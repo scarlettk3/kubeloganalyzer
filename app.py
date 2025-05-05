@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Replace with your actual Mistral AI API key
-MISTRAL_API_KEY = "8LLev8jl5CUHAwlF3uEh1vfpF0X0IDdo"
+MISTRAL_API_KEY = "keep your token here"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 @app.route('/')
